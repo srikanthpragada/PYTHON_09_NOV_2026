@@ -1,4 +1,9 @@
 def iseven(n: int) -> bool:
+    """
+    Checks whether a number is even
+    :param n: Number to check
+    :return: True on even false otherwise
+    """
     return n % 2 == 0
 
 
